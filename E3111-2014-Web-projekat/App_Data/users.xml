@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Id>USER_1</Id>
+    <Username>admin</Username>
+    <Password>12345</Password>
+    <Name>radi li</Name>
+    <Lastname>Ozegovic</Lastname>
+    <UserGender>FEMALE</UserGender>
+    <Email>admin@gmail.com</Email>
+    <OutDate>21/06/1954</OutDate>
+    <UserRole>ADMINISTRATOR</UserRole>
+    <TravelPackages />
+    <Reservations />
+    <Status>APPROVED</Status>
+    <IsDeleted>false</IsDeleted>
+  </User>
+  <User>
+    <Id>bd5f158a-8be6-434b-9f30-6b33742d8a2f</Id>
+    <Username>tourist</Username>
+    <Password>2ANaX8cSwjcXkPA!</Password>
+    <Name>aa</Name>
+    <Lastname>aa</Lastname>
+    <UserGender>MALE</UserGender>
+    <Email>a@gmail.com</Email>
+    <OutDate>30/05/2021</OutDate>
+    <UserRole>TOURIST</UserRole>
+    <TravelPackages />
+    <Reservations>
+      <string>RES_1</string>
+      <string>RES_2</string>
+      <string>RES_3</string>
+      <string>RES_4</string>
+      <string>RES_5</string>
+      <string>RES_6</string>
+      <string>RES_7</string>
+      <string>RES_8</string>
+      <string>RES_9</string>
+      <string>RES_10</string>
+    </Reservations>
+    <Status>APPROVED</Status>
+    <IsDeleted>false</IsDeleted>
+  </User>
+  <User>
+    <Id>77068d81-9988-40d0-a6b4-1cde5ad0d028</Id>
+    <Username>manager2</Username>
+    <Password>123456</Password>
+    <Name>foo</Name>
+    <Lastname>bar</Lastname>
+    <UserGender>MALE</UserGender>
+    <Email>foo.bar@gmail.com</Email>
+    <OutDate>02/05/1983</OutDate>
+    <UserRole>MANAGER</UserRole>
+    <TravelPackages>
+      <string>PACK_3</string>
+      <string>PACK_5</string>
+    </TravelPackages>
+    <Reservations />
+    <Status>APPROVED</Status>
+    <IsDeleted>false</IsDeleted>
+  </User>
+  <User>
+    <Id>7639423b-c2b9-42dd-9659-7bea6e133b4c</Id>
+    <Username>manager</Username>
+    <Password>v5x3xbNeKxLwPwc!</Password>
+    <Name>manager</Name>
+    <Lastname>manager</Lastname>
+    <UserGender>MALE</UserGender>
+    <Email>manager@gmail.com</Email>
+    <OutDate>05/06/1962</OutDate>
+    <UserRole>MANAGER</UserRole>
+    <TravelPackages>
+      <string>PACK_1</string>
+      <string>PACK_2</string>
+      <string>PACK_4</string>
+    </TravelPackages>
+    <Reservations />
+    <Status>APPROVED</Status>
+    <IsDeleted>false</IsDeleted>
+  </User>
+</ArrayOfUser>

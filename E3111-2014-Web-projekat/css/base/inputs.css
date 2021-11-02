@@ -1,0 +1,35 @@
+input, select, textarea {
+	border-radius: var(--radius-s);
+	background: white;
+	border: 1px solid var(--color-gray-3);
+	padding: var(--gap-m) var(--gap-l);
+	line-height: 1.4;
+}
+
+label{
+	line-height:1;
+}
+
+input[type='time']{
+	height: 33px;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border-color: blue;
+}
+
+.form label input:not([type='checkbox']):not([type='radio']),
+.form label select,
+.form label textarea {
+	width: 100%;
+}
+
+.form fieldset {
+	border-radius: var(--radius-m);
+	border: 1px dashed var(--color-gray-3);
+}
+
+.form fieldset legend {
+	padding: var(--gap-m) var(--gap-l);
+}

@@ -1,0 +1,249 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Travel Agency</title>
+	<meta name='author' content='Maja Ozegovic' />
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta charset='utf-8' />
+	<link media='screen' rel='stylesheet' type='text/css' href='css/styles.css' />
+
+	<!-- openlayers maps -->
+	<!-- https://openlayers.org/en/latest/doc/quickstart.html -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+	<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
+	<!-- jQuery -->
+	<script src="js/external/jquery-3.6.0.min.js"></script>
+
+	<!-- Site scripts -->
+	<script type="module" src="main.js"></script>
+	<script type="module" src="js/components/package.js"></script>
+</head>
+<body>
+	<header class='main-header flex flex-align-center'>
+		<nav>
+			<a href="/" class="logo reset text-3xl font-bold">✈️ Veltra</a>
+		</nav>
+		<div class="ml-auto pr-l flex flex-align-center gap-l">
+			<a class="btn btn--2 hide" data-show-for="ADMINISTRATOR, MANAGER, TOURIST" href="/reservations.html">Reservations</a>
+
+			<div class='main-header__user hide'>
+				Hello
+				<a href='/profile.html' class='main-header__user-name-photo'>
+					<img class="profile-image radius-50 mr-m" />
+					<span class="main-header__user-name"></span>
+				</a>,
+				<a class='logout-btn ml-m'>Sign-out</a>
+			</div>
+			<a class='login-btn'>Sign-in/up</a>
+		</div>
+	</header>
+
+	<div class="page-status text-center text-xl"></div>
+
+	<!-- travel package full details -->
+	<div class='travel-package-single pb-xl hide'>
+		<img class="package-cover-img mb-xl bg-blue-1" />
+
+		<div class='content w-max-1000 m-auto text-m'>
+			<h1 class='package-title text-3xl font-normal text-gray-4'>
+				<span class='package-destination font-bold'></span>
+				<span class='text-gray-2'>/</span>
+				<span class='package-name'></span>
+			</h1>
+
+			<div class='text-l mb-xl text-green-3'>
+				🗓️ <span class="package-start-date"></span> - <span class="package-end-date"></span>
+			</div>
+
+			<div class='mb-xl flex-inline gap-l p-m pl-xl pr-xl radius-xl border'>
+				<div class=''>Up to <span class='MaxCapacity font-thick'></span> participants</div>
+				<span class="opacity-03">|</span>
+				<div class=''>Type: <span class='PackageType font-thick'></span></div>
+				<span class="opacity-03">|</span>
+				<div class=''>By <span class='TransportationType font-thick'></span></div>
+				<span class="opacity-03">|</span>
+				<div class=''>From $<span class='LowestPrice font-thick'></span></div>
+			</div>
+
+			<p class='package-description text-m mb-l'></p>
+		</div>
+
+		<br />
+		<br />
+		<br />
+
+		<div class='w-max-1000 m-auto'>
+			<div class='flex gap-xl text-m'>
+				<!-- Itinerary -->
+				<div class='flex-1'>
+					<h2 class='text-xl font-normal text-purple-3 mb-xl'>🗺️ Itinerary:</h2>
+					<p class='Itinerary text-pre'></p>
+				</div>
+
+				<!-- meeting details & map -->
+				<div class='flex-1'>
+					<h2 class='text-xl mb-xl font-normal text-purple-3'>📌 Meetup:</h2>
+
+					<span class='text-gray-3 mr-m'>Time:</span>
+					<span class='meeting-time font-thick'></span>
+					<br />
+
+					<span class='text-gray-3 mr-m'>City:</span>
+					<span class='meeting-city font-thick'></span>
+					<br />
+
+					<span class='text-gray-3 mr-m'>Steet:</span>
+					<span class='meeting-street font-thick'></span>
+					<br />
+
+					<span class='text-gray-3 mr-m'>Number:</span>
+					<span class='meeting-number font-thick'></span>
+					<br />
+
+					<span class='text-gray-3 mr-m'>Postal Code:</span> <span class='meeting-zip font-thick'></span>
+
+					<!-- meeting point map -->
+					<div class='mt-xl bg-gray-1' id="meeting-map" style="height: 350px"></div>
+				</div>
+			</div>
+		</div>
+
+		<br />
+		<br />
+		<br />
+
+		<!-- Accommodations -->
+		<div class='book-package-section w-max-1000 m-auto hide'>
+			<h2 class='text-xl mb-l font-normal text-purple-3'>🏰 Choose Accommodations & Unit:</h2>
+			<table class="accommodations table m-auto w-full">
+				<thead>
+					<tr class="text-m">
+						<th class="text-left">Type</th>
+						<th class="text-left">Name</th>
+						<th class="text-left">Rating</th>
+						<th class="text-left">Amenities</th>
+						<th></th>
+					</tr>
+				</thead>
+
+				<tbody class='accommodations-tbody'></tbody>
+			</table>
+		</div>
+
+		<template id="accommodation-row-template">
+			<tr data-id="" class="accommodation toggle-table-row text-m">
+				<td><!-- Type --></td>
+				<td><!-- Name --></td>
+				<td class="text-l"><!-- Rating --></td>
+				<td><!-- Amenities --></td>
+				<td class="text-right"></td>
+			</tr>
+			<tr class='table-toggle-target hide'>
+				<td colspan="5" class="no-border bg-blue-1 radius-l">
+					<br />
+					<div class='text-center'>
+						<h3 class='text-blue-4 radius-xl inline-block'>🛏️ Select Room</h3>
+					</div>
+					<br />
+					<form class="form units-filter text-left flex flex-align-center flex-justify-center m-auto">
+						<label>
+							<input name="minCapacity" class="w-max-s no-right-radius" type="number" min="1" placeholder="Min capacity" />
+						</label>
+
+						<label class="mr-l" style="margin-left:-1px">
+							<input name="maxCapacity" class="w-max-s no-left-radius" type="number" min="1" placeholder="Max capacity" />
+						</label>
+
+						<label>
+							<input name="minPrice" class="w-max-s no-right-radius" type="number" min="0" placeholder="From price" />
+						</label>
+
+						<label class="mr-l" style="margin-left:-1px">
+							<input name="maxPrice" class="w-max-s no-left-radius" type="number" placeholder="To price" />
+						</label>
+
+						<label class="mr-l">
+							<input name="petFriendly" type="checkbox" />
+							<span class="label">Pet-friendly</span>
+						</label>
+
+						<div class="flex ml-l">
+							<button type="submit" class="btn btn--1 flex-1 no-right-radius ">Search</button>
+							<input type="reset" class="btn btn--1 no-left-radius p-l " value="&times;">
+						</div>
+					</form>
+
+					<br />
+
+					<table class="units table m-auto w-full">
+						<thead>
+							<tr>
+								<th class="text-left">Capacity</th>
+								<th class="text-left">Amenities</th>
+								<th class="text-left"><a class="sortBy sortBy--unit-price" data-by="price" data-order="asc">Price</a></th>
+								<th><!-- actions --></th>
+							</tr>
+						</thead>
+
+						<tbody class='units-tbody'></tbody>
+						<tfoot><tr><td colspan="99" class='units-message pt-xl text-xl text-center opacity-03'><!-- here goes messages and loader animation --></td></tr></tfoot>
+					</table>
+				</td>
+			</tr>
+		</template>
+
+		<template id="accommodation-unit-row-template">
+			<tr class='unit' data-id="" style="vertical-align:initial">
+				<td><!-- Capacity --></td>
+				<td><!-- Amenities --></td>
+				<td><!-- Price --></td>
+				<td class="text-right">
+					<button type="button" class="book-unit-btn btn btn--2">Book</button>
+				</td>
+			</tr>
+		</template>
+
+		<!-- Comments -->
+		<div class='comments-package-section w-max-1000 m-auto hide'>
+			<h2 class='text-xl mb-l font-normal text-purple-3'>🎤 Comments:</h2>
+
+			<!-- add new comment -->
+			<form class="comments-write-comment flex flex-colum w-max-l mb-xl hide">
+				<label class="mb-m">Write a comment: <em class="text-gray-3">(comments are pending manager approval)</em></label>
+				<textarea name="Content" class="comment-input w-full" required></textarea>
+				<div class="mt-l flex">
+					<select name="Rating" class="stars text-xl no-border" required>
+						<option value="1">★</option>
+						<option value="2">★★</option>
+						<option value="3">★★★</option>
+						<option value="4">★★★★</option>
+						<option value="5" selected>★★★★★</option>
+					</select>
+					<button class="submit-comment-btn btn btn--1 ml-auto">Send</button>
+				</div>
+			</form>
+
+			<!-- comments list -->
+			<div class="comments-list w-max-l text-m"></div>
+		</div>
+
+		<template id="comment-template">
+			<div class="comment radius-m p-l mb-l" data-id="">
+				<!-- only show the "approve" input if the current logged-in user is the same manager who created the package -->
+				<input type="checkbox" class="approve-comment hide" id="" />
+
+				<div class="flex-inline flex-align-center gap-l mb-l">
+					<div class="comment-actions hide">
+						<label class="approve-label unselectable" for="comment-1">Approved</label>
+					</div>
+					<span class="comment__by inline-block font-thick   p-m pl-l pr-l   radius-m bg-blue-1"><!-- username --></span>
+				</div>
+
+				<p class="comment__text"></p>
+				<span class="comment__rating mt-m text-l"></span>
+			</div>
+		</template>
+	</body>
+</html>

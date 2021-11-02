@@ -1,0 +1,35 @@
+.users th:first-child,
+.users td:first-child,
+.users th:last-child,
+.users td:last-child {
+    width: 15%;
+  }
+
+/* 
+  make the left and right gap more narrow on smaller screen
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries 
+*/
+@media (max-width: 1500px ) {
+  .users th:first-child,
+  .users td:first-child,
+  .users th:last-child,
+  .users td:last-child {
+    width: 8%;
+  }
+}
+
+.users img{
+  border-radius: 50%;
+  width: 60px;
+  margin: -5px 0;
+}
+
+.users .user-actions {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.users .user-actions > * {
+  margin: 0 var(--gap-m);
+}
+

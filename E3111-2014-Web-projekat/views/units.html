@@ -1,0 +1,93 @@
+﻿<h1 class="mb-xl pb-xl text-3xl text-center">#ACCOMMODATION#  Units</h1>
+
+<form class="form units-filter text-left flex flex-align-center m-auto w-max-1000">
+	<label>
+		<input name="minCapacity" class="w-max-s no-right-radius" type="number" min="1" placeholder="Min capacity" />
+	</label>
+
+	<label class="mr-l" style="margin-left:-1px">
+		<input name="maxCapacity" class="w-max-s no-left-radius" type="number" min="1" placeholder="Max capacity" />
+	</label>
+
+	<label>
+		<input name="minPrice" class="w-max-s no-right-radius" type="number" min="0" placeholder="From price" />
+	</label>
+
+	<label class="mr-l" style="margin-left:-1px">
+		<input name="maxPrice" class="w-max-s no-left-radius" type="number" placeholder="To price" />
+	</label>
+
+	<label class="mr-l">
+		<input name="petFriendly" type="checkbox" />
+		<span class="label">Pet-friendly</span>
+	</label>
+
+	<div class="flex ml-l">
+		<button type="submit" class="btn btn--1 flex-1 no-right-radius ">Search</button>
+		<input type="reset" class="btn btn--1 no-left-radius p-l " value="&times;">
+	</div>
+</form>
+
+<br />
+<br />
+<br />
+
+<table class="units table m-auto w-full">
+	<thead>
+		<tr>
+			<th></th>
+			<th class="text-left"><a class="sortBy" data-by="capacity" data-order="asc">Capacity</a></th>
+			<th>Available</th>
+			<th class="text-left">Amenities</th>
+			<th class="text-left"><a class="sortBy" data-by="price" data-order="asc">Price</a></th>
+			<th><!-- actions like "delete" --></th>
+			<th></th>
+		</tr>
+	</thead>
+
+	<tbody></tbody>
+	<tfoot><tr><td colspan="99" class='pt-xl text-xl text-center opacity-03'><!-- here goes messages and loader animation --></td></tr></tfoot>
+</table>
+
+<!-- empty form which the inputs of a "create new package" table row and linked to, so they would be validated by the browser -->
+<form id="createUnitForm"></form>
+
+<template id="editable_unit_template">
+	<tr data-id="" style="vertical-align:initial">
+		<td></td>
+		<td><input name="Capacity" type="number" min="1" max="10" form="createUnitForm" class="w-max-s" required /></td>
+		<td class="text-center"></td>
+		<td>
+			<label>
+				<input data-for="Ammenities" name="Pet friendly" type="checkbox" />
+				<span class="label">Pet Friendly</span>
+			</label>
+		</td>
+		<td><input name="Price" type="number" min="1" form="createUnitForm" class="w-max-s" required /></td>
+		<td class="user-actions">
+			<div class="flex gap-xl">
+				<button type="submit" class="create-btn btn btn--2 hide" form="createUnitForm">Create</button>
+				<button class="delete-btn btn-unset text-xl">&times</button>
+			</div>
+		</td>
+		<td></td>
+	</tr>
+</template>
+
+
+<template id="unit_template">
+	<tr data-id="" style="vertical-align:initial">
+		<td></td>
+		<td></td>
+		<td class="text-center"></td>
+		<td></td>
+		<td></td>
+		<td class="user-actions">
+			<div>
+				<button type="submit" class="book-unit-btn btn btn--2 hide" form="createUnitForm">Book</button>
+			</div>
+		</td>
+		<td></td>
+	</tr>
+</template>
+

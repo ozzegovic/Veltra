@@ -1,0 +1,61 @@
+.main-header{
+  display: flex;
+  padding: var(--gap-l);
+}
+
+.main-header .logo{
+  color: var(--color-purple-3);
+  cursor: pointer;
+}
+
+/***********************
+  navigation
+************************/
+
+.main-header nav{
+
+}
+
+.main-header .login-btn, 
+.main-header .logout-btn {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: var(--radius-m);
+  padding: var(--gap-m);
+}
+
+.main-header .login-btn:hover,
+.main-header .logout-btn:hover{
+  background: var(--color-blue-1);
+}
+
+
+/***********************
+  logged-in user
+************************/
+.main-header__user{
+	margin-left: auto;
+}
+
+.main-header__user ~ * {
+	display: none;
+}
+
+.main-header__user.hide ~ *{
+	display: initial;
+}
+
+.main-header__user a{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.main-header__user-name {
+	text-decoration: underline;
+}
+
+.main-header__user img {
+	width: 35px;
+	display: inline;
+	vertical-align: middle;
+}

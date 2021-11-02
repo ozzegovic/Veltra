@@ -1,0 +1,13 @@
+.travel-packages > .package{
+	min-height: 300px;
+}
+
+.package-cover{
+	width: 50%;
+}
+
+.travel-packages > .package img {
+	min-height: 280px;
+	max-height: 320px;
+	object-fit: cover;
+}

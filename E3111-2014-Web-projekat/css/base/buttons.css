@@ -1,0 +1,81 @@
+.btn {
+	display: inline-block; /* reset display for links, which can also be buttons: <a class='btn'> */
+	text-decoration: none;
+	background: var(--color-gray-4);
+	border: none;
+	border-radius: var(--radius-m);
+	color: white;
+	line-height: 1;
+	padding: var(--gap-m) var(--gap-l);
+	transition: background 60ms;
+}
+
+	.btn:hover {
+		background: var(--color-gray-3);
+	}
+
+/* reset button to be without any background or padding*/
+/* https://css-tricks.com/almanac/properties/a/all/ */
+.btn-unset {
+	all: unset;
+	cursor: pointer;
+	line-height: 1;
+}
+
+.btn[disabled]{
+  pointer-events: none;
+}
+
+.btn[loading]{
+  pointer-events: none;
+  color: transparent;
+  font-size: 0;
+  opacity: .8;
+  cursor: default; /* not a pointer cursor anymore */
+}
+
+.btn[loading]::before{
+  content: 'loading...';
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* types of buttons */
+
+
+
+.btn--1{
+  background: var(--color-green-3);
+  padding: var(--gap-m) var(--gap-l);
+}
+
+.btn--1:hover{
+  background: var(--color-green-2);
+}
+
+.btn--2 {
+  background: var(--color-purple-3);
+  padding: var(--gap-m) var(--gap-l);
+}
+
+.btn--2:hover {
+  background: var(--color-purple-2);
+}
+
+
+.btn--warn {
+  background: var(--color-red-3);
+}
+
+.btn--warn:hover {
+  background: var(--color-red-2);
+}
+
+/* variants */
+
+.btn--large {
+  font-size: 1.2rem;
+  border-radius: var(--radius-m);
+  padding: var(--gap-l) var(--gap-xl);
+}
+

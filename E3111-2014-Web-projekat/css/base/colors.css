@@ -1,0 +1,55 @@
+/******************************
+	text colors 
+******************************/
+.text-purple-1 { color: var(--color-purple-1); }
+.text-purple-2 { color: var(--color-purple-2); }
+.text-purple-3 { color: var(--color-purple-3); }
+.text-purple-4 { color: var(--color-purple-4); }
+
+.text-green-1 { color: var(--color-green-1); }
+.text-green-2 { color: var(--color-green-2); }
+.text-green-3 { color: var(--color-green-3); }
+.text-green-4 { color: var(--color-green-4); }
+
+.text-gray-1 { color: var(--color-gray-1); }
+.text-gray-2 { color: var(--color-gray-2); }
+.text-gray-3 { color: var(--color-gray-3); }
+.text-gray-4 { color: var(--color-gray-4); }
+
+.text-blue-1 { color: var(--color-blue-1); }
+.text-blue-2 { color: var(--color-blue-2); }
+.text-blue-3 { color: var(--color-blue-3); }
+.text-blue-4 { color: var(--color-blue-4); }
+
+.text-red-1 { color: var(--color-red-1); }
+.text-red-2 { color: var(--color-red-2); }
+.text-red-3 { color: var(--color-red-3); }
+.text-red-4 { color: var(--color-red-4); }
+
+/******************************
+	background colors 
+******************************/
+.bg-purple-1 { background-color: var(--color-purple-1); }
+.bg-purple-2 { background-color: var(--color-purple-2); }
+.bg-purple-3 { background-color: var(--color-purple-3); }
+.bg-purple-4 { background-color: var(--color-purple-4); }
+
+.bg-green-1 { background-color: var(--color-green-1); }
+.bg-green-2 { background-color: var(--color-green-2); }
+.bg-green-3 { background-color: var(--color-green-3); }
+.bg-green-4 { background-color: var(--color-green-4); }
+
+.bg-gray-1 { background-color: var(--color-gray-1); }
+.bg-gray-2 { background-color: var(--color-gray-2); }
+.bg-gray-3 { background-color: var(--color-gray-3); }
+.bg-gray-4 { background-color: var(--color-gray-4); }
+
+.bg-blue-1 { background-color: var(--color-blue-1); }
+.bg-blue-2 { background-color: var(--color-blue-2); }
+.bg-blue-3 { background-color: var(--color-blue-3); }
+.bg-blue-4 { background-color: var(--color-blue-4); }
+
+.bg-red-1 { background-color: var(--color-red-1); }
+.bg-red-2 { background-color: var(--color-red-2); }
+.bg-red-3 { background-color: var(--color-red-3); }
+.bg-red-4 { background-color: var(--color-red-4); }

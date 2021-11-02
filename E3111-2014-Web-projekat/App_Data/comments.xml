@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfComment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Comment>
+    <Id>COM_1</Id>
+    <TouristUsername>tourist</TouristUsername>
+    <TravelPackageId>PACK_3</TravelPackageId>
+    <Content>I had a wonderfull time! Will book with you again!</Content>
+    <Rating>5</Rating>
+    <Status>APPROVED</Status>
+  </Comment>
+  <Comment>
+    <Id>COM_2</Id>
+    <TouristUsername>tourist</TouristUsername>
+    <TravelPackageId>PACK_3</TravelPackageId>
+    <Content>This pieces of shits stole ma money!</Content>
+    <Rating>1</Rating>
+    <Status>PENDING</Status>
+  </Comment>
+</ArrayOfComment>

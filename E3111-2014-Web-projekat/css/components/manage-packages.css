@@ -1,0 +1,29 @@
+form.package-details .package-photo-field {
+	position: relative;
+}
+
+form.package-details .delete-photo-btn {
+	display: none;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index: 999;
+	line-height: 1;
+}
+
+form.package-details .package-photo-field img {
+	width: 360px;
+	height: 100%;
+	opacity: 0;
+	object-fit: cover; /* fills the image to fit exactly */
+}
+
+form.package-details .package-photo-field img[src] {
+	opacity: 1;
+	transition: .3s;
+}
+
+
+form.package-details .package-photo-field img[src] ~ a {
+	display: block;
+}

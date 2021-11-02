@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Travel Agency - Reservations</title>
+	<meta name='author' content='Maja Ozegovic' />
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta charset='utf-8' />
+
+	<link media='screen' rel='stylesheet' type='text/css' href='css/styles.css' />
+	<link media='screen' rel='stylesheet' type='text/css' href='css/reservations.css' />
+
+	<!-- jQuery -->
+	<script src="js/external/jquery-3.6.0.min.js"></script>
+
+	<!-- Site scripts -->
+	<script type="module" src="js/components/reservations.js"></script>
+</head>
+<body>
+	<header class='main-header flex flex-align-center'>
+		<nav>
+			<a href="/" class="logo reset text-3xl font-bold">✈️ Veltra</a>
+		</nav>
+		<div class="ml-auto pr-l flex flex-align-center gap-l">
+			<a class="btn btn--2 hide" data-show-for="ADMINISTRATOR, MANAGER, TOURIST" href="/reservations.html">Reservations</a>
+			<div class='main-header__user hide'>
+				Hello
+				<a href='/profile.html' class='main-header__user-name-photo'>
+					<img class="profile-image radius-50 mr-m" />
+					<span class="main-header__user-name"></span>
+				</a>,
+				<a class='logout-btn ml-m'>Sign-out</a>
+			</div>
+			<a class='login-btn'>Sign-in/up</a>
+		</div>
+	</header>
+
+	<div>
+		<h1 class="mb-xl pb-xl text-3xl text-center">Reservations list</h1>
+
+		<form class="form reservations-filter text-left flex flex-align-end gap-l m-auto w-max-1000">
+			<label class="flex-1">
+				<div class="label mb-s">Package Name</div>
+				<input name="TravelPackageName" />
+			</label>
+			<label class="flex-1">
+				<div class="label mb-s">Package ID</div>
+				<input name="TravelPackageId" />
+			</label>
+			<label class="flex-1">
+				<div class="label mb-s">Username</div>
+				<input name="TouristUsername" />
+			</label>
+			<label class="flex-1">
+				<div class="label mb-s">Status</div>
+				<select name='ReservationStatus'>
+					<option value="ALL">All</option>
+					<option value="ACTIVE">Active</option>
+					<option value="CANCELED">Canceled</option>
+				</select>
+			</label>
+			<label class="flex-1">
+				<div class="label mb-s">Period</div>
+				<select name='ReservationPeriod'>
+					<option value="ALL">All</option>
+					<option value="FUTURE">Future</option>
+					<option value="PAST">Past</option>
+				</select>
+			</label>
+
+			<div class="flex">
+				<button type="submit" class="btn btn--1 flex-1 no-right-radius mt-l">Search</button>
+				<input type="reset" class="btn btn--1 no-left-radius p-l mt-l" value="&times;">
+			</div>
+		</form>
+
+		<table class="table reservations m-auto mt-xl w-full">
+			<thead>
+				<tr class="text-left">
+					<th></th>
+					<th><!-- package photo--></th>
+					<th>Id</th>
+					<th><a class="sortBy" data-by="TravelPackageName" data-order="asc">Name</a></th>
+					<th>Dates</th>
+					<th><a class="sortBy" data-by="TouristUsername" data-order="asc">Username</a></th>
+					<th><a class="sortBy" data-by="Price" data-order="asc">Price</a></th>
+					<th class="text-center"><a class="sortBy" data-by="Status" data-order="asc">Status</a></th>
+					<th class="user-actions"></th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody></tbody>
+			<tfoot><tr><td colspan="99" class='pt-xl text-xl text-center opacity-03'><!-- here goes messages and loader animation --></td></tr></tfoot>
+		</table>
+
+		<template id="reservations_row_template">
+			<tr>
+				<td></td>
+				<td class="w-s"><a><img style="width:100px" /></a><!-- package photo--></td>
+				<td><!-- Id--></td>
+				<td><a></a><!-- Name--></td>
+				<td><!-- Dates--></td>
+				<td><!-- Username--></td>
+				<td><!-- Price--></td>
+				<td class="text-center font-thick"><!-- Status--></td>
+				<td class="user-actions text-right">
+					<button class="btn-cancel btn btn--warn mb-m hide" title="cancel reservation">Cancel</button>
+					<button class="btn-details btn btn--details">Details</button>
+				</td>
+				<td></td>
+			</tr>
+		</template>
+	</div>
+</body>
+</html>

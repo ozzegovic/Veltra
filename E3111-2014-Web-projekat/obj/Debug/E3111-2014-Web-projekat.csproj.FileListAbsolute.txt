@@ -1,0 +1,256 @@
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll.config
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.pdb
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\csc.exe
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\csc.exe.config
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\csc.rsp
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\csi.exe
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\csi.exe.config
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\csi.rsp
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.AppContext.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Console.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.IO.Compression.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Security.Claims.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.ValueTuple.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\vbc.exe
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\vbc.exe.config
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\vbc.rsp
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\Newtonsoft.Json.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\System.Web.Http.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\Newtonsoft.Json.xml
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.xml
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\System.Web.Http.xml
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.xml
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csprojAssemblyReference.cache
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CopyComplete
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.dll
+C:\Users\TEMP.FTN.006\Desktop\e3111-2014-web-projekat-master\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.pdb
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.pdb
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csc.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csc.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csc.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csi.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csi.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csi.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.AppContext.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Console.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.Compression.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Claims.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.ValueTuple.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\vbc.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\vbc.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\vbc.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Newtonsoft.Json.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Newtonsoft.Json.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csprojAssemblyReference.cache
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CoreCompileInputs.cache
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CopyComplete
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\shared\yakis\veltra\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.pdb
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.pdb
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csc.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csc.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csc.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csi.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csi.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\csi.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.AppContext.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Console.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.Compression.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Claims.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.ValueTuple.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\vbc.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\vbc.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\vbc.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Newtonsoft.Json.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Newtonsoft.Json.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csprojAssemblyReference.cache
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CoreCompileInputs.cache
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CopyComplete
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\E3111-2014-Web-projekat\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.pdb
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\E3111-2014-Web-projekat.pdb
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\csc.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\csc.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\csc.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\csi.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\csi.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\csi.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.AppContext.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Console.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.IO.Compression.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Security.Claims.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.ValueTuple.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\vbc.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\vbc.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\vbc.rsp
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\Newtonsoft.Json.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\System.Web.Http.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\Newtonsoft.Json.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\System.Net.Http.Formatting.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\System.Web.Http.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\System.Web.Http.WebHost.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csprojAssemblyReference.cache
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CoreCompileInputs.cache
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.csproj.CopyComplete
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.dll
+C:\Users\maja\Desktop\UNI\3\VI\Web programiranje\2021\Projekat\glavni\Veltra\E3111-2014-Web-projekat\obj\Debug\E3111-2014-Web-projekat.pdb

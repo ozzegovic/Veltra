@@ -1,0 +1,160 @@
+﻿<!doctype html>
+<html>
+<head>
+  <title>Travel Agency - Accommodations</title>
+  <meta name='author' content='Maja Ozegovic' />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta charset='utf-8' />
+  <link media='screen' rel='stylesheet' type='text/css' href='css/styles.css' />
+  <link media='screen' rel='stylesheet' type='text/css' href='css/accommodations.css' />
+  <!-- jQuery -->
+  <script src="js/external/jquery-3.6.0.min.js"></script>
+
+  <!-- Site scripts -->
+  <script type="module" src="js/components/accommodations.js"></script>
+</head>
+<body>
+	<header class='main-header flex flex-align-center'>
+		<nav>
+			<a href="/" class="logo reset text-3xl font-bold">✈️ Veltra</a>
+		</nav>
+		<div class="ml-auto pr-l flex flex-align-center gap-l">
+			<a class="btn btn--2 hide" data-show-for="ADMINISTRATOR, MANAGER, TOURIST" href="/reservations.html">Reservations</a>
+			<div class='main-header__user hide'>
+				Hello
+				<a href='/profile.html' class='main-header__user-name-photo'>
+					<img class="profile-image radius-50 mr-m" />
+					<span class="main-header__user-name"></span>
+				</a>,
+				<a class='logout-btn ml-m'>Sign-out</a>
+			</div>
+			<a class='login-btn'>Sign-in/up</a>
+		</div>
+	</header>
+
+	<main>
+		<h1 class="mb-xl pb-xl text-3xl text-center">Accommodations list</h1>
+
+		<form class="form accommodations-filter text-left flex flex-align-center gap-xl m-auto w-max-1000">
+			<label class="flex-1">
+				<input name="name" placeholder="name" />
+			</label>
+
+			<label>
+				<select name='type'>
+					<option value="any">Any</option>
+					<option value="hotel">Hotel</option>
+					<option value="motel">Motel</option>
+					<option value="villa">Villa</option>
+				</select>
+			</label>
+
+			<label class="">
+				<input name="Pool" type="checkbox" />
+				<span class="labe">Pool</span>
+			</label>
+
+			<label class="">
+				<input name="Spa" type="checkbox" />
+				<span class="label">Spa</span>
+			</label>
+
+			<label class="">
+				<input name="WheelchairAccessible" type="checkbox" />
+				<span class="label">Wheelchair accessible</span>
+			</label>
+
+			<label class="">
+				<input name="Wifi" type="checkbox" />
+				<span class="label">WiFi</span>
+			</label>
+
+
+			<div class="flex ml-xl">
+				<button type="submit" class="btn btn--1 flex-1 no-right-radius ">Search</button>
+				<input type="reset" class="btn btn--1 no-left-radius p-l " value="&times;">
+			</div>
+		</form>
+
+		<br />
+		<br />
+		<br />
+
+		<table class="accommodations table m-auto w-full">
+			<thead>
+				<tr>
+					<th></th>
+					<th class="text-left">Type</th>
+					<th class="text-left"><a class="sortBy" data-by="name" data-order="asc">Name</a></th>
+					<th title="Total number of units"><a class="sortBy" data-by="totalUnits" data-order="asc">Units</a></th>
+					<th title="Number of available units"><a class="sortBy" data-by="availableUnits" data-order="asc">Available Units</a></th>
+					<th>Stars</th>
+					<th class="text-left">Amenities</th>
+					<th class="user-actions"></th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody></tbody>
+			<tfoot><tr><td colspan="99" class='pt-xl text-xl text-center opacity-03'><!-- here goes messages and loader animation --></td></tr></tfoot>
+		</table>
+
+		<!-- empty form which the inputs of a "create new package" table row and linked to, so they would be validated by the browser -->
+		<form id="createPackageForm"></form>
+
+		<template id="accommodations_template">
+			<tr data-id="" style="vertical-align:initial">
+				<td></td>
+				<td>
+					<select name="AccommodationType" form="createPackageForm" required>
+						<option value="HOTEL">Hotel</option>
+						<option value="MOTEL">Motel</option>
+						<option value="VILLA">Villa</option>
+					</select>
+				</td>
+				<td><input name="Name" class="w-full" form="createPackageForm" required/></td>
+				<td class="text-center text-m"><button class="btn units-btn radius-xl"></button></td>
+				<td class="text-center text-m"></td>
+				<td class="text-center">
+					<select name="Stars" class="stars text-xl no-border" form="createPackageForm" required>
+						<option value="1">★</option>
+						<option value="2">★★</option>
+						<option value="3">★★★</option>
+						<option value="4">★★★★</option>
+						<option value="5" selected>★★★★★</option>
+					</select>
+				</td>
+				<td>
+					<label>
+						<input data-for="Ammenities" name="Wheelchair accessible" type="checkbox" />
+						<span class="label">Wheelchair accessible</span>
+					</label>
+					<br />
+					<label>
+						<input data-for="Ammenities" name="Pool" type="checkbox" />
+						<span class="label">Pool</span>
+					</label>
+					<br />
+					<label>
+						<input data-for="Ammenities" name="Spa" type="checkbox" />
+						<span class="label">Spa</span>
+					</label>
+					<br />
+					<label>
+						<input data-for="Ammenities" name="Wifi" type="checkbox" />
+						<span class="label">WiFi</span>
+					</label>
+				</td>
+				<td class="user-actions">
+					<div class="flex gap-xl">
+						<button type="submit" class="create-btn btn btn--2 hide" form="createPackageForm">Create</button>
+						<button class="delete-btn btn-unset text-xl">&times</button>
+					</div>
+				</td>
+				<td></td>
+			</tr>
+		</template>
+	</main>
+</body>
+</html>

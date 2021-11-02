@@ -1,0 +1,137 @@
+﻿<div class="p-xl">
+	<form class="form package-details flex flex-colum gap-xl w-max-1000 m-auto">
+		<div class="flex-1 flex gap-l flex-align-center">
+			<label class="flex-2">
+				<div class="label mb-s">Name</div>
+				<input name="Name" required />
+			</label>
+
+			<label class="flex-2">
+				<div class="label mb-s">Destination</div>
+				<input name="Destination" required />
+			</label>
+
+			<label class="flex-2">
+				<div class="label mb-s">From Date</div>
+				<input name="StartDate" type="date" placeholder="Trip starting date" required />
+			</label>
+
+			<label class="flex-2">
+				<div class="label mb-s">To Date</div>
+				<input name="EndDate" type="date" placeholder="Trip finish date" required />
+			</label>
+		</div>
+
+		<label class="flex-1">
+			<div class="label mb-s">Description</div>
+			<textarea name="Description" required></textarea>
+		</label>
+
+		<div class="flex-1 flex gap-l">
+			<label class="flex-1">
+				<div class="label mb-s">Type</div>
+				<select name='PackageType' required>
+					<option value="ALLINCLUSIVE">All Inclusive</option>
+					<option value="FullBoard">Full Board</option>
+					<option value="HalfBoard">Half Board</option>
+					<option value="BreakfastIncluded">Breakfast Included</option>
+					<option value="SelfCatering">Self Catering</option>
+				</select>
+			</label>
+
+			<label class="flex-2">
+				<div class="label mb-s">Transportation Type</div>
+				<select name='TransportationType' required>
+					<option value="BUS">Bus</option>
+					<option value="AIRPLANE">Airplane</option>
+					<option value="BUS_AIRPLANE">Bus + airplane</option>
+					<option value="INDIVIDUAL">Individual</option>
+					<option value="OTHER">Other</option>
+				</select>
+			</label>
+
+			<label class="flex-1">
+				<div class="label mb-s">Tourists Capacity</div>
+				<input name="MaxCapacity" type="number" min="1" required />
+			</label>
+		</div>
+
+		<div class="flex gap-l">
+			<label class="flex-1 flex flex-colum">
+				<div class="label mb-s">Itinerary</div>
+				<textarea class="flex-1" name="Itinerary" required></textarea>
+			</label>
+
+			<label>
+				<div class="label mb-s">Accommodation</div>
+				<select name="AccommodationIds" id="AccommodationIds" multiple required></select>
+			</label>
+		</div>
+
+		<!-- meeting location -->
+
+		<fieldset class="flex-1 p-l">
+			<legend>Meeting Location</legend>
+			<div class="flex gap-l">
+				<label class="flex-2">
+					<div class="label mb-s">City</div>
+					<input name="City" required />
+				</label>
+
+				<label class="flex-2">
+					<div class="label mb-s">Street</div>
+					<input name="Street" required />
+				</label>
+
+				<label class="flex-1">
+					<div class="label mb-s">Number</div>
+					<input name="Number" required />
+				</label>
+
+				<label class="flex-1">
+					<div class="label mb-s">Postal Code</div>
+					<input name="PostalCode" required />
+				</label>
+
+				<label class="flex-1">
+					<div class="label mb-s">Time</div>
+					<input name="Time" type="time" required />
+				</label>
+			</div>
+		</fieldset>
+
+		<div class="flex" style="height:280px;">
+			<!-- photos -->
+			<fieldset class="p-l">
+				<legend>Photos</legend>
+				<div class="flex gap-l" style="height:100%;">
+					<label class="package-photo-field border border-dashed no-overflow">
+						<input type="file" name="image1" hidden accept="image/*" />
+						<img />
+						<a class="delete-photo-btn text-2xl btn btn--warn radius-50">&times;</a>
+					</label>
+				</div>
+			</fieldset>
+			<div class="flex-1">
+				<fieldset class="p-l" style="height:100%;">
+					<legend>
+						Meeting At Lon/Lat
+						<span class="lonLat ml-l font-thick"></span>
+					</legend>
+					<input class="ml-l no-border w-max-s" name="Longitude" hidden />
+					<input class="ml-l no-border w-max-s" name="Latitude" hidden />
+					<div class="bg-blue-1" style="height:100%" id="package-meeting-map"></div>
+				</fieldset>
+			</div>
+		</div>
+
+		<!-- submit / reset buttons -->
+		<div class="flex-1 flex pt-l">
+			<div class="message flex-1 flex-align-center"></div>
+			<div class="flex-inline">
+				<button type="submit" class="btn btn--1 btn--large flex-1 no-right-radius">Submit</button>
+				<input type="reset" class="btn btn--1 btn--large no-left-radius p-l" value="&times;">
+			</div>
+		</div>
+	</form>
+</div>

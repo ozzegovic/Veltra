@@ -1,0 +1,36 @@
+// this is an example of get package details of travel package with id PACK_1
+// this is on View package page
+[
+  {
+    "Id": "PACK_1_AC_1",
+    "AccommodationType": "HOTEL",
+    "Name": "SUNSET VILLA",
+    "Stars": 4,
+    "Ammenities": [
+      "Pool",
+      "Wifi",
+      "
+        "
+    ],
+    "AccommodationUnitIds": [
+      "PACK_1_AC_1_U_1",
+      "PACK_1_AC_1_U_2"
+    ]
+  },
+  {
+    "Id": "PACK_1_AC_3",
+    "AccommodationType": "HOTEL",
+    "Name": "SEA VILLA",
+    "Stars": 5,
+    "Ammenities": [
+      "Pool",
+      "Spa",
+      "Wifi",
+      "Wheelchair accessible"
+    ],
+    "AccommodationUnitIds": [
+      "PACK_1_AC_3_U_1",
+      "PACK_1_AC_3_U_2"
+    ]
+  }
+]

@@ -1,0 +1,268 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA7BEF8B-D768-4ACA-9655-63C3EB653FCC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E3111_2014_Web_projekat</RootNamespace>
+    <AssemblyName>E3111-2014-Web-projekat</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="accommodations.html" />
+    <Content Include="admin.html" />
+    <Content Include="App_Data\accommodation-units.xml" />
+    <Content Include="App_Data\accommodations.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\comments.xml" />
+    <Content Include="App_Data\reservations.xml" />
+    <Content Include="App_Data\travel-packages.xml" />
+    <Content Include="App_Data\users.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="assets\images\locations\bora bora\162859_v6.jpeg" />
+    <Content Include="assets\images\locations\bora bora\24309.jpg" />
+    <Content Include="assets\images\locations\bora bora\bora-bora-accommodation.jpg" />
+    <Content Include="assets\images\locations\japan\1.jpg" />
+    <Content Include="assets\images\locations\new zealand\1.jpg" />
+    <Content Include="assets\images\locations\new zealand\2.jpg" />
+    <Content Include="assets\images\locations\seychelles\IMG_4738-1-1200x900.jpg" />
+    <Content Include="assets\images\locations\thailand\1.jpg" />
+    <Content Include="assets\images\locations\thailand\2.jpg" />
+    <Content Include="assets\images\locations\thailand\3.jpg" />
+    <Content Include="assets\images\locations\thailand\main.jpg" />
+    <Content Include="assets\images\packages\PACK_1\1.jpg" />
+    <Content Include="assets\images\packages\PACK_2\1.jpg" />
+    <Content Include="assets\images\packages\PACK_3\1.jpg" />
+    <Content Include="assets\images\packages\PACK_4\1.jpg" />
+    <Content Include="assets\images\packages\PACK_5\1.jpg" />
+    <Content Include="css\accommodations.css" />
+    <Content Include="css\admin.css" />
+    <Content Include="css\base\buttons.css" />
+    <Content Include="css\base\colors.css" />
+    <Content Include="css\base\filterBy.css" />
+    <Content Include="css\base\flex.css" />
+    <Content Include="css\base\general.css" />
+    <Content Include="css\base\inputs.css" />
+    <Content Include="css\base\reset.css" />
+    <Content Include="css\base\sortBy.css" />
+    <Content Include="css\base\spaces.css" />
+    <Content Include="css\base\tables.css" />
+    <Content Include="css\base\typography.css" />
+    <Content Include="css\base\variables.css" />
+    <Content Include="css\components\header.css" />
+    <Content Include="css\components\login-register.css" />
+    <Content Include="css\components\manage-packages.css" />
+    <Content Include="css\components\modal.css" />
+    <Content Include="css\components\packages-search.css" />
+    <Content Include="css\components\travel-package.css" />
+    <Content Include="css\reservations.css" />
+    <Content Include="css\components\travel-packages.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="Global.asax" />
+    <Content Include="index.html" />
+    <Content Include="js\admin.js" />
+    <Content Include="js\components\accommodations.js" />
+    <Content Include="js\components\comments.js" />
+    <Content Include="js\components\index.js" />
+    <Content Include="js\components\login-register.js" />
+    <Content Include="js\components\manage-packages.js" />
+    <Content Include="js\components\package.js" />
+    <Content Include="js\components\packages.js" />
+    <Content Include="js\components\profile.js" />
+    <Content Include="js\components\reservation.js" />
+    <Content Include="js\components\reservations.js" />
+    <Content Include="js\components\units.js" />
+    <Content Include="js\external\jquery-3.6.0.min.js" />
+    <Content Include="js\general\formatDate.js" />
+    <Content Include="js\general\forms.js" />
+    <Content Include="js\general\getTemplate.js" />
+    <Content Include="js\general\header.js" />
+    <Content Include="js\general\index.js" />
+    <Content Include="js\general\links.js" />
+    <Content Include="js\general\loader.js" />
+    <Content Include="js\general\map.js" />
+    <Content Include="js\general\modals.js" />
+    <Content Include="js\general\parseQueryParams.js" />
+    <Content Include="js\general\tables.js" />
+    <Content Include="main.js" />
+    <Content Include="package.html" />
+    <Content Include="reservations.html" />
+    <Content Include="views\login-register.html" />
+    <Content Include="views\manage-packages.html" />
+    <Content Include="profile.html" />
+    <Content Include="views\reservation.html" />
+    <Content Include="views\units.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccommodationController.cs" />
+    <Compile Include="Controllers\AccommodationUnitController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\CommentController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReservationController.cs" />
+    <Compile Include="Controllers\TravelPackageController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <None Include="data\accommodationunit.json" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Accommodation.cs" />
+    <Compile Include="Models\AccommodationUnit.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\Data.cs" />
+    <Compile Include="Models\FormData\CreateAccommodationModel.cs" />
+    <Compile Include="Models\FormData\CreateAccommodationUnitModel.cs" />
+    <Compile Include="Models\FormData\CreateComment.cs" />
+    <Compile Include="Models\FormData\CreateReservationModel.cs" />
+    <Compile Include="Models\FormData\EditReservationModel.cs" />
+    <Compile Include="Models\FormData\CreateTravelPackageModel.cs" />
+    <Compile Include="Models\FormData\SearchTravelPackageModel.cs" />
+    <Compile Include="Models\FormData\SearchUserModel.cs" />
+    <Compile Include="Models\FormData\UpdateCommentModel.cs" />
+    <Compile Include="Models\FormData\UpdateTravelPackageModel.cs" />
+    <Compile Include="Models\FormData\UpdateUserRoleModel.cs" />
+    <Compile Include="Models\FormData\UpdateUserStatusModel.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\MeetingLocation.cs" />
+    <Compile Include="Models\RegisterModel.cs" />
+    <Compile Include="Models\Reservation.cs" />
+    <Compile Include="Models\ReturnData\AccommodationDetailsModel.cs" />
+    <Compile Include="Models\ReturnData\AccommodationModel.cs" />
+    <Compile Include="Models\ReturnData\AccommodationUnitModel.cs" />
+    <Compile Include="Models\ReturnData\CommentModel.cs" />
+    <Compile Include="Models\ReturnData\ReservationDetailsModel.cs" />
+    <Compile Include="Models\ReturnData\ReservationModel.cs" />
+    <Compile Include="Models\ReturnData\TravelPackageDetailsModel.cs" />
+    <Compile Include="Models\ReturnData\TravelPackageModel.cs" />
+    <Compile Include="Models\ReturnData\UserModel.cs" />
+    <Compile Include="Models\TravelPackage.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\accomodation.json" />
+    <Content Include="data\packages.json" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49524</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49524/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

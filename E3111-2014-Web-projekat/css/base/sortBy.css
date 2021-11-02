@@ -1,0 +1,21 @@
+﻿.sortBy {
+	cursor: pointer;
+	user-select: none; /* do not allow the text to be selectedable by mouse */
+}
+
+.sortBy:hover{
+	text-decoration: underline;
+}
+
+.sortBy.active{
+	font-weight: var(--font-black);
+}
+
+/* unicodes from: https://copypastecharacter.com/ */
+.sortBy.active[data-order="asc"]::before {
+	content: '↑';
+}
+
+.sortBy.active[data-order="desc"]::before {
+	content: '↓';
+}

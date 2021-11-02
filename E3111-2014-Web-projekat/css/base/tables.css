@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse; /* this seems helpful */
+}
+
+.table{
+
+}
+
+/* class for clicking to open/close the next row (for showing more details for the clicked row) 
+	is handles in tables.js
+*/
+.toggle-table-row{
+	cursor: pointer;
+}
+
+.table tr.loading{
+	pointer-events: none; /* prevent user clicks */
+	opacity: .4;
+	transition: .1s;
+}
+
+.table th, .table tbody td {
+	padding: var(--gap-m) var(--gap-l);
+}
+
+.table th {
+	padding: var(--gap-l);
+}
+
+.table tbody td {
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.table tbody > tr:hover {
+	background: var(--color-gray-1);
+}
+
+.table select{
+	background: transparent;
+}

@@ -1,0 +1,19 @@
+﻿.reservations th:first-child,
+.reservations td:first-child,
+.reservations th:last-child,
+.reservations td:last-child {
+    width: 20%;
+}
+
+/* 
+  make the left and right gap more narrow on smaller screen
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries 
+*/
+@media (max-width: 1500px ) {
+    .reservations th:first-child,
+    .reservations td:first-child,
+    .reservations th:last-child,
+    .reservations td:last-child {
+        width: 6%;
+    }
+}

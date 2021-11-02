@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<ArrayOfTravelPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TravelPackage>
+    <Id>PACK_1</Id>
+    <Name>Come to Thailand</Name>
+    <PackageType>ALLINCLUSIVE</PackageType>
+    <TransportationType>AIRPLANE</TransportationType>
+    <Destination>Thailand</Destination>
+    <OutStartDate>22/07/2021</OutStartDate>
+    <OutEndDate>22/08/2021</OutEndDate>
+    <Location>
+      <Address>
+        <Street>Novi Sad</Street>
+        <Number>11</Number>
+        <City>Bulevar Oslobodjenja</City>
+        <PostalCode>23</PostalCode>
+      </Address>
+      <Latitude>45.263372735545516</Latitude>
+      <Longitude>19.831062930455172</Longitude>
+    </Location>
+    <OutTime>12:53</OutTime>
+    <MaxCapacity>34</MaxCapacity>
+    <Description>Stay in the center of this vibrant Thai capital on the banks of the Chao Phraya River, known for its lively street life, sacred temples and opulent shrines.</Description>
+    <Itinerary>
+      Day 1: Arrive in Bangkok and go Shopping.
+      
+      Day 2: Visit Wat Arun, Wat Pho, and Wat Phra Kaew Before Having Dinner in Chinatown.
+      
+      Day 3: Fly to Phuket, Swim at Freedom Beach, and go out on Bangla Road.
+      
+      Day 4: Head to Koh Phi Phi and Take to the Viewpoints.
+      
+      Day 5: Book a Snorkeling Trip Around the Islands of Koh Phi Phi.
+      
+      Day 6: Take a Ferry to Koh Lanta.
+      
+      Day 7: Rent a Scoter and Zip Around the Island of Koh Lanta.
+    </Itinerary>
+    <PosterSrc>assets/images/packages/PACK_1/1.jpg</PosterSrc>
+    <AccommodationIds>
+      <string>PACK_1_AC_1</string>
+      <string>PACK_1_AC_3</string>
+    </AccommodationIds>
+    <IsDeleted>false</IsDeleted>
+  </TravelPackage>
+  <TravelPackage>
+    <Id>PACK_2</Id>
+    <Name>Visit Japan</Name>
+    <PackageType>ALLINCLUSIVE</PackageType>
+    <TransportationType>AIRPLANE</TransportationType>
+    <Destination>Japan</Destination>
+    <OutStartDate>01/04/2021</OutStartDate>
+    <OutEndDate>01/05/2021</OutEndDate>
+    <Location>
+      <Address>
+        <Street>street</Street>
+        <Number>11</Number>
+        <City>Tokio</City>
+        <PostalCode>23</PostalCode>
+      </Address>
+      <Latitude>45.33</Latitude>
+      <Longitude>20</Longitude>
+    </Location>
+    <OutTime>12:53</OutTime>
+    <MaxCapacity>34</MaxCapacity>
+    <Description>No matter how much you think you know about Japan, nothing can prepare you for the moment when you step out into the buzzing, neon-lit streets of downtown Tokyo for the first time.</Description>
+    <Itinerary>Just come to the meeting place at the right time, i dont know.</Itinerary>
+    <PosterSrc>assets/images/packages/PACK_2/1.jpg</PosterSrc>
+    <AccommodationIds>
+      <string>PACK_2_AC_2</string>
+    </AccommodationIds>
+    <IsDeleted>false</IsDeleted>
+  </TravelPackage>
+  <TravelPackage>
+    <Id>PACK_3</Id>
+    <Name>Lordy of the rings</Name>
+    <PackageType>ALLINCLUSIVE</PackageType>
+    <TransportationType>AIRPLANE</TransportationType>
+    <Destination>New Zealand</Destination>
+    <OutStartDate>30/01/2021</OutStartDate>
+    <OutEndDate>07/02/2021</OutEndDate>
+    <Location>
+      <Address>
+        <Street>Zeleznicka</Street>
+        <Number>1</Number>
+        <City>Novi Sad</City>
+        <PostalCode>21000</PostalCode>
+      </Address>
+      <Latitude>45.33</Latitude>
+      <Longitude>20</Longitude>
+    </Location>
+    <OutTime>15:00</OutTime>
+    <MaxCapacity>2</MaxCapacity>
+    <Description>Explore New Zealand</Description>
+    <Itinerary>Meet at the airport.</Itinerary>
+    <PosterSrc>assets/images/packages/PACK_3/1.jpg</PosterSrc>
+    <AccommodationIds>
+      <string>PACK_1_AC_1</string>
+    </AccommodationIds>
+    <IsDeleted>false</IsDeleted>
+  </TravelPackage>
+  <TravelPackage>
+    <Id>PACK_4</Id>
+    <Name>Trip to paradise</Name>
+    <PackageType>FULLBOARD</PackageType>
+    <TransportationType>AIRPLANE</TransportationType>
+    <Destination>Seychelles </Destination>
+    <OutStartDate>10/07/2021</OutStartDate>
+    <OutEndDate>20/07/2021</OutEndDate>
+    <Location>
+      <Address>
+        <Street>Aerodrom Beograd</Street>
+        <Number>59</Number>
+        <City>Beograd</City>
+        <PostalCode>11180</PostalCode>
+      </Address>
+      <Latitude>44.813943723279039</Latitude>
+      <Longitude>20.291297157772409</Longitude>
+    </Location>
+    <OutTime>08:00</OutTime>
+    <MaxCapacity>10</MaxCapacity>
+    <Description>The Seychelles are known for beautiful beaches, but the islands are also home to some seriously cool jungles and even mountains.</Description>
+    <Itinerary>Day 1- Arrival in Mahe
+
+Days 1-3 Explore Praslin and La Digue
+
+Days 3-6 Explore Mahe and surroundings
+
+Days 6-8 Experience Silhouette Island
+
+Day 8 – Departure from Mahe</Itinerary>
+    <PosterSrc>assets/images/packages/PACK_4/1.jpg</PosterSrc>
+    <AccommodationIds>
+      <string>PACK_1_AC_1</string>
+      <string>AC_6</string>
+    </AccommodationIds>
+    <IsDeleted>false</IsDeleted>
+  </TravelPackage>
+  <TravelPackage>
+    <Id>PACK_5</Id>
+    <Name>Dream come true</Name>
+    <PackageType>HALFBOARD</PackageType>
+    <TransportationType>AIRPLANE</TransportationType>
+    <Destination>BORA BORA</Destination>
+    <OutStartDate>17/01/2021</OutStartDate>
+    <OutEndDate>24/01/2021</OutEndDate>
+    <Location>
+      <Address>
+        <Street>Bulevar Jaše Tomića</Street>
+        <Number> бб</Number>
+        <City>Novi Sad</City>
+        <PostalCode>21000</PostalCode>
+      </Address>
+      <Latitude>45.33</Latitude>
+      <Longitude>20</Longitude>
+    </Location>
+    <OutTime>08:00</OutTime>
+    <MaxCapacity>8</MaxCapacity>
+    <Description>There is no limit to the things to do in Bora Bora. Enjoy the neon-lit turquoise lagoon waters with unending days of exploration through snorkeling and diving.</Description>
+    <Itinerary>
+Day 1: Circle the Island by Water
+
+    Jump on jetskis or waterskis and scoot along the smooth lagoon for an exhilarating ride.
+    Charter a powerboat and enjoy stops for snorkeling or a beach picnic.
+    Step foot on a powered canoe and tour the lagoonarium, play with rays, and discover dozens of snorkeling spots.
+    Take sail in a catamaran for a sunset cruise accompanied by local musicians and dancers.
+    End your day at one of the five-star resort restaurants.
+
+Day 2: Circle the Island by Air
+
+    Climb onboard a helicopter for a breathtaking ride high above this neon-colored world.
+    Strap into a parasail for one or two and glide effortlessly above the lagoon or try kitesurfing.
+    Rent a car, a two person “fun car” or a bicycle for a ride along the flat roads.
+    Celebrate your adventures at one of the famous local restaurants.
+
+Day 3: Circle the Island on Land, Shop and Beach Hop
+
+    4×4 safari on hidden roads up to overlooks and historical sites.
+    Discover the dozens of shopping areas for art, handicrafts, pearls, and fragrant Tahitian oils.
+    Visit the artisan galleries and pick up your own Bora Bora original.
+    Spend the afternoon enjoying famous Matira Beach or the secluded beaches on one of the many islets surrounding Bora Bora.
+
+</Itinerary>
+    <PosterSrc>assets/images/packages/PACK_5/1.jpg</PosterSrc>
+    <AccommodationIds>
+      <string>AC_4</string>
+      <string>AC_6</string>
+    </AccommodationIds>
+    <IsDeleted>false</IsDeleted>
+  </TravelPackage>
+</ArrayOfTravelPackage>

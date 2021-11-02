@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Agency - Profile</title>
+	<meta name='author' content='Maja Ozegovic' />
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta charset='utf-8' />
+
+	<link media='screen' rel='stylesheet' type='text/css' href='css/styles.css' />
+
+	<!-- jQuery -->
+	<script src="js/external/jquery-3.6.0.min.js"></script>
+
+	<!-- Site scripts -->
+	<script type="module" src="main.js"></script>
+	<script type="module" src="js/components/profile.js"></script>
+</head>
+<body>
+    <header class='main-header flex flex-align-center'>
+        <nav>
+            <a href="/" class="logo reset text-3xl font-bold">✈️ Veltra</a>
+        </nav>
+        <div class="ml-auto pr-l flex flex-align-center gap-l">
+            <button class="add-package-button btn hide" data-show-for="ADMINISTRATOR, MANAGER">Add Package</button>
+            <a class="btn hide" data-show-for="ADMINISTRATOR, MANAGER" href="/accommodations.html">Manage Accommodations</a>
+            <a class="btn hide" data-show-for="ADMINISTRATOR" href="/admin.html">Manage Users</a>
+            <a class="btn btn--2 hide" data-show-for="ADMINISTRATOR, MANAGER, TOURIST" href="/reservations.html">Reservations</a>
+
+			<div class='main-header__user hide'>
+				Hello
+				<a href='/profile.html' class='main-header__user-name-photo'>
+					<img class="profile-image radius-50 mr-m" />
+					<span class="main-header__user-name"></span>
+				</a>,
+				<a class='logout-btn ml-m'>Sign-out</a>
+			</div>
+            <a class='login-btn'>Sign-in/up</a>
+        </div>
+    </header>
+    <main class="mt-xl">
+        <h1 class="mb-xl pb-xl text-3xl text-center">Profile Details</h1>
+
+		<img class="profile-image w-s radius-50 mb-xl m-auto"/>
+
+        <!-- "Profile" form -->
+        <div class="flex flex-center">
+			<form class='profile-form flex flex-colum gap-m w-max-l'>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Username </span>
+					<input class="flex-1 bg-gray-1 text-gray-3" name='username' placeholder='Username' readonly />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Name </span>
+					<input class="flex-1" name='name' placeholder='Name' required />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Lastname </span>
+					<input class="flex-1" name='lastname' placeholder='Lastname' required />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Status </span>
+					<input class="flex-1 bg-gray-1 text-gray-3" name='status' placeholder='Status' readonly />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Email </span>
+					<input class="flex-1" name='email' type='email' placeholder='Email address' required />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Password </span>
+					<input class="flex-1" name='password' type='password' pattern='^.{6,}$' placeholder='Password' required />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>New password </span>
+					<input class="flex-1" name='newpassword' type='password' pattern='^.{6,}$' placeholder='New password' required />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Confirm password </span>
+					<input class="flex-1" name='confirmpassword' type='password' pattern='^.{6,}$' placeholder='Confirm password' required />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Birthday </span>
+					<input class="flex-1" name='birthday' type='date' placeholder='Birthday' min="1940-01-01" max="2005-01-01" required />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Role </span>
+					<input class="flex-1 bg-gray-1 text-gray-3" name='role' type='text' placeholder='Role' readonly />
+				</label>
+				<label class='flex flex-align-center'>
+					<span class='w-s'>Gender </span>
+					<select class="flex-1" name='usergender' required>
+						<option value="MALE">Male</option>
+						<option value="FEMALE">Female</option>
+					</select>
+				</label>
+				<button class='profile__profileBtn btn btn--1 mt-l p-l' type='submit'>Update</button>
+				<p class='profile-form__message text-center'></p>
+			</form>
+        </div>
+        
+    </main>
+</body>
+</html>

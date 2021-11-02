@@ -1,0 +1,31 @@
+﻿//for View accommodation page
+// we need details of the accommodation and all units details as well i think
+
+{
+    "Id": "PACK_1_AC_3",
+    "AccommodationType": "HOTEL",
+    "Name": "SEA VILLA",
+    "Stars": 5,
+    "Ammenities": [
+        "Pool",
+        "Spa",
+        "Wifi",
+        "Wheelchair accessible"
+    ],
+    "AccommodationUnits": [
+        {
+            "Id": "PACK_1_AC_3_U_1",
+            "Capacity": 3,
+            "Details": "Pet friendly",
+            "Price": 100.0,
+            "IsAvailable": "Yes"
+        },
+        {
+            "Id": "PACK_1_AC_3_U_2",
+            "Capacity": 2,
+            "Details": "Not pet friendly",
+            "Price": 150.0,
+            "IsAvailable": "Yes"
+        }
+    ]
+}

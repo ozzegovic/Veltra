@@ -1,0 +1,41 @@
+.packages-search {
+  /* grid layout generator: https://grid.layoutit.com */
+  --space-between: 4vw;
+  display: inline-grid;
+  gap: 3vh var(--space-between);
+  max-width: 900px;
+  margin: 0 auto 7vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "dates dates" 
+    ". ." ". .";
+}
+
+.packages-search label input, 
+.packages-search label select{
+  width: 100%;
+}
+
+
+ /* only the dates areas */
+
+.packages-search__dates {
+  grid-area: dates;
+  display: flex;
+  gap: var(--space-between);
+  padding-bottom: calc(var(--space-between)/2);
+  border-bottom: 1px solid var(--color-gray-2);
+}
+
+.packages-search__dates > * {
+  display: grid;
+  gap: 1vw;
+  grid-template-areas: 
+    "title title" 
+    ". .";
+}
+
+.packages-search__dates h2 {
+  grid-area: title;
+}
+  

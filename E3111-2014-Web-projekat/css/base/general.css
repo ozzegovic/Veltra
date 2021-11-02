@@ -1,0 +1,50 @@
+.hide{ display: none !important;}
+.show{ display: initial;}
+.inline-block{ display: inline-block }
+.block{ display: block }
+
+.lock{ pointer-events:none; } /*  prevent user clicking: https://stackoverflow.com/a/45796015/104380*/
+.unselectable{ user-select: none } /* disable text selection https://stackoverflow.com/a/6900392/104380 */
+
+.text-pre {	white-space: pre-line; }
+
+
+
+.w-max-1000 { max-width: 1000px; }
+.w-max-s { max-width: 150px; }
+.w-max-m { max-width: 350px; }
+.w-max-l { max-width: 500px; }
+
+.w-s { width: 150px; }
+.w-m { width: 350px; }
+.w-l { width: 500px; }
+
+.w-full { width: 100%; }
+.w-half { width: 50%; }
+
+
+
+.no-overflow{ overflow:hidden; }
+
+.no-right-radius {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.no-left-radius {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.radius-50 { border-radius: 50%; }
+.radius-m { border-radius: var(--radius-m); }
+.radius-l { border-radius: var(--radius-l); }
+.radius-xl { border-radius: var(--radius-xl); }
+
+.border{ border: 1px solid var(--color-gray-3); }
+.border-bottom{ border-bottom: 1px solid rgba(0,0,0,.2); }
+.no-border{ border: none !important; }
+.border-dashed{ border-type: dashed; }
+
+.opacity-05{ opacity: 0.5; }
+.opacity-03{ opacity: 0.3; }

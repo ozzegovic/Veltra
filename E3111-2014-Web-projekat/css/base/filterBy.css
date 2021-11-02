@@ -1,0 +1,3 @@
+.filterBy input:checked + span {
+	font-weight: var(--font-black);
+}

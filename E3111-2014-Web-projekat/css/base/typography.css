@@ -1,0 +1,25 @@
+html{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+
+
+.text-center{ text-align: center; }
+.text-left{ text-align: left; }
+.text-right{ text-align: right; }
+
+/* Sizes */
+.text-base{ font-size: var(--text-base); }
+.text-s{ font-size: var(--text-s); }
+.text-m{ font-size: var(--text-m); }
+.text-l{ font-size: var(--text-l); }
+.text-xl{ font-size: var(--text-xl); }
+.text-2xl{ font-size: var(--text-2xl); }
+.text-3xl{ font-size: var(--text-3xl); }
+
+/* Weights */
+.font-thin{ font-weight: var(--font-thin); }
+.font-normal{ font-weight: var(--font-normal); }
+.font-thick{ font-weight: var(--font-thick); }
+.font-bold{ font-weight: var(--font-black); }

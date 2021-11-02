@@ -1,0 +1,19 @@
+.accommodations th:first-child,
+.accommodations td:first-child,
+.accommodations th:last-child,
+.accommodations td:last-child {
+	width: 12%;
+}
+
+/* 
+  make the left and right gap more narrow on smaller screen
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries 
+*/
+@media (max-width: 1300px ) {
+	.accommodations th:first-child,
+	.accommodations td:first-child,
+	.accommodations th:last-child,
+	.accommodations td:last-child {
+		width: 5%;
+	}
+}

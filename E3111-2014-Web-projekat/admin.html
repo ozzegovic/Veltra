@@ -1,0 +1,119 @@
+﻿<!doctype html>
+<html>
+  <head>
+  <title>Travel Agency - Admin</title>
+  <meta name='author' content='Maja Ozegovic' />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta charset='utf-8' />
+  <link media='screen' rel='stylesheet' type='text/css' href='css/styles.css' />
+  <link media='screen' rel='stylesheet' type='text/css' href='css/admin.css' />
+  <!-- jQuery -->
+  <script src="js/external/jquery-3.6.0.min.js"></script>
+
+  <!-- Site scripts -->
+  <script type="module" src="js/admin.js"></script>
+</head>
+<body>
+	<header class='main-header flex flex-align-center'>
+		<nav>
+			<a href="/" class="reset logo text-3xl font-bold">✈️ Veltra</a>
+		</nav>
+		<div class="ml-auto pr-l flex flex-align-center gap-l">
+			<a class="btn btn--2 hide" data-show-for="ADMINISTRATOR, MANAGER, TOURIST" href="/reservations.html">Reservations</a>
+
+			<div class='main-header__user hide'>
+				Hello
+				<a href='/profile.html' class='main-header__user-name-photo'>
+					<img class="profile-image radius-50 mr-m" />
+					<span class="main-header__user-name"></span>
+				</a>,
+				<a class='logout-btn ml-m'>Sign-out</a>
+			</div>
+			<a class='login-btn'>Sign-in/up</a>
+		</div>
+	</header>
+
+	<main class="">
+		<h1 class="mb-xl pb-xl text-3xl text-center">Users list</h1>
+
+		<form class="form users-filter text-left flex flex-align-end gap-l m-auto w-max-1000">
+			<label class="flex-1">
+				<div class="label mb-s">Name</div>
+				<input name="name" />
+			</label>
+
+			<label class="flex-1">
+				<div class="label mb-s">Last name</div>
+				<input name="lastname" />
+			</label>
+
+			<label class="flex-1">
+				<div class="label mb-s">Role</div>
+				<select name='role'>
+					<option value="all">All</option>
+					<option value="administrator">Administrator</option>
+					<option value="manager">Manager</option>
+					<option value="tourist">Tourist</option>
+				</select>
+			</label>
+
+			<label class="flex-1">
+				<div class="label mb-s">Filter</div>
+				<select name='filterBy'>
+					<option value="all">All</option>
+					<option value="suspicious">Suspicious</option>
+				</select>
+			</label>
+
+			<div class="flex">
+				<button type="submit" class="btn btn--1 flex-1 no-right-radius mt-l">Search</button>
+				<input type="reset" class="btn btn--1 no-left-radius p-l mt-l" value="&times;">
+			</div>
+		</form>
+
+		<table class="table users m-auto mt-xl w-full">
+			<thead>
+				<tr class="text-left">
+					<th></th>
+					<th></th>
+					<th>Username</th>
+					<th><a class="sortBy" data-by="Name" data-order="asc">First Name</a></th>
+					<th><a class="sortBy" data-by="Lastname" data-order="asc">Last Name</a></th>
+					<th>Email</th>
+					<th><a class="sortBy" data-by="Role" data-order="asc">Role</a></th>
+					<th>Status</th>
+					<th class="user-actions"></th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody></tbody>
+			<tfoot><tr><td colspan="99" class='pt-xl text-xl text-center opacity-03'><!-- here goes messages and loader animation --></td></tr></tfoot>
+		</table>
+
+		<template id="user_row_template">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<select class="user-rule">
+						<option value="MANAGER">Manager</option>
+						<option value="TOURIST">Tourist</option>
+					</select>
+				</td>
+				<td></td>
+				<td class="user-actions">
+					<button class="btn-lock btn" title="locked users cannot book">lock</button>
+					<button class="btn-delete btn-unset text-xl">&times</button>
+				</td>
+				<td></td>
+			</tr>
+		</template>
+	  </main>
+</body>
+</html>

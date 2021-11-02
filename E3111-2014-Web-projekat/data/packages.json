@@ -1,0 +1,32 @@
+// this is on Home page && Past packages page
+
+[
+
+  {
+    "Id": "PACK_1",
+    "Name": "Come to Thailand",
+    "PackageType": "ALLINCLUSIVE",
+    "TransportationType": "BUS_AIRPLANE",
+    "Destination": "Thailand",
+    "StartDate": "2021-07-22T00:00:00",
+    "EndDate": "2021-08-22T00:00:00",
+    "Location": {
+      "Address": {
+        "Street": "street",
+        "Number": "11",
+        "City": "Bangkok",
+        "PostalCode": 23
+      },
+      "Latitude": 34.34343,
+      "Longitude": 56.34345
+    },
+    "Time": "2021-06-22T12:53:00",
+    "MaxCapacity": 34,
+    "Description": "Stay in the center of this vibrant Thai capital on the banks of the Chao Phraya River, known for its lively street life, sacred temples and opulent shrines.",
+    "Itinerary": "Just come to the meeting place at the right time, i dont know.",
+    "Photos": [],
+    "AccommodationIds": [
+      "PACK_1_AC_1"
+    ]
+  }
+]

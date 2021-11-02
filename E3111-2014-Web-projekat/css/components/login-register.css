@@ -1,0 +1,46 @@
+.modal--login-register .modal__content{
+  width: 350px;
+  overflow: hidden;
+}
+
+.login-register{
+  width: 700px;
+  display: flex;
+  transition: .3s ease-in-out;
+}
+
+#login-register-toggle:checked ~ .login-register{
+  transform: translateX(-50%);
+}
+
+.login-register .form-message{
+  color: var(--color-red-3);
+}
+
+
+.login-register form{
+  width: 100%;
+  padding: 2vw;
+}
+
+.login-register form label{
+  display: block;
+  width: 100%;
+}
+
+.login-register form label input{
+  width: 100%;
+}
+
+.login-register form label select {
+    width: 100%;
+}
+
+.login-register form button{
+  width: 100%;
+}
+
+/* fir error messages when login/register failed */
+.login-register .form-message{
+    width: 100%;
+}

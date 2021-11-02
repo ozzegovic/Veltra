@@ -1,0 +1,23 @@
+/* https://fonts.google.com/specimen/Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;900&display=swap');
+
+@import 'base/reset.css';
+@import 'base/variables.css';
+@import 'base/colors.css';
+@import 'base/buttons.css';
+@import 'base/inputs.css';
+@import 'base/typography.css';
+@import 'base/flex.css';
+@import 'base/spaces.css';
+@import 'base/tables.css';
+@import 'base/sortBy.css';
+@import 'base/filterBy.css';
+@import 'base/general.css'; /*  should be last */
+
+@import 'components/modal.css';
+@import 'components/header.css';
+@import 'components/travel-packages.css';
+@import 'components/travel-package.css';
+@import 'components/login-register.css';
+@import 'components/packages-search.css';
+@import 'components/manage-packages.css';

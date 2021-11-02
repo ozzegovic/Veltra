@@ -1,0 +1,73 @@
+<!-- hidden checkbox - controls which form to show below. when "checekd" show "sign up"-->
+<input type='checkbox' hidden id="login-register-toggle" />
+
+<div class='login-register'>
+	<!-- "Sign-in" form -->
+	<form class='login-form flex flex-colum gap-m'>
+		<header class='text-xl mb-l text-center'>Sign in</header>
+		<div class=''>
+			<label>
+				<input name='username' type='text' placeholder='Username' required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<input name='password' type='password' placeholder='Password' required />
+			</label>
+		</div>
+		<p class='form-message login-form__message text-center'></p>
+		<button class='login-register__loginBtn btn btn--1 mt-l p-l' type='submit'>Sign in</button>
+		<label for='login-register-toggle' class='mt-m text-center'>I'm not registered</label>
+	</form>
+
+	<!-- "Sign-up" form -->
+	<form class='register-form flex flex-colum gap-m'>
+		<header class='text-xl mb-l text-center'>Sign up</header>
+		<div class=''>
+			<label>
+				<input name='username' placeholder='Username' required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<input name='name' placeholder='Name' required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<input name='lastname' placeholder='Lastname' required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<input name='email' type='email' placeholder='Email address' required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<input name='password' type='password' pattern='^.{6,}$' placeholder='Password (minimum 6 characters)' required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<input name='confirmpassword' type='password' pattern='^.{6,}$' placeholder='Confirm password' required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<input name='birthday' type='date' placeholder='Birthday' min="1940-01-01" max="2005-01-01" required />
+			</label>
+		</div>
+		<div class=''>
+			<label>
+				<select name='usergender' required>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+			</label>
+		</div>
+		<p class='form-message register-form__message text-center'></p>
+		<button class='login-register__loginBtn btn btn--1 mt-l p-l' type='submit'>Sign up</button>
+		<label for='login-register-toggle' class='mt-m text-center'>I'm already registered</label>
+	</form>
+</div>

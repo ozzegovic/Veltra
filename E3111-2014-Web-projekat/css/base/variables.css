@@ -1,0 +1,59 @@
+html {
+	/********************************
+		colors
+		https://tailwindcss.com/docs/customizing-colors
+	********************************/
+	--color-gray-1: #F8FAFC;
+	--color-gray-2: #E5E7EB;
+	--color-gray-3: #9CA3AF;
+	--color-gray-4: #374151;
+	--color-red-1: #FEE2E2;
+	--color-red-2: #F87171;
+	--color-red-3: #DC2626;
+	--color-red-4: #991B1B;
+	--color-yellow-1: #FEF3C7;
+	--color-yellow-2: #FCD34D;
+	--color-yellow-3: #F59E0B;
+	--color-yellow-4: #92400E;
+	--color-blue-1: #DBEAFE;
+	--color-blue-2: #93C5FD;
+	--color-blue-3: #3B82F6;
+	--color-blue-4: #1E40AF;
+	--color-green-1: #D1FAE5;
+	--color-green-2: #6EE7B7;
+	--color-green-3: #10B981;
+	--color-green-4: #065F46;
+	--color-purple-1: #C7D2FE;
+	--color-purple-2: #818CF8;
+	--color-purple-3: #4F46E5;
+	--color-purple-4: #3730A3;
+
+	/* radius */
+	--radius-s: 3px;
+	--radius-m: 6px;
+	--radius-l: 12px;
+	--radius-xl: 20px;
+
+	/* spaces */
+	--gap-s: 3px;
+	--gap-m: 6px;
+	--gap-l: 12px;
+	--gap-xl: 30px;
+
+	/* font weights (from the Google font which is loading in styles.css */
+	--font-thin: 200;
+	--font-normal: 400;
+	--font-thick: 500;
+	--font-black: 900;
+
+	/* font sizes */
+	--text-base: 1rem;
+	--text-s: .9em;
+	--text-m: 1.125em;
+	--text-l: 1.5em;
+	--text-xl: 1.875em;
+	--text-2xl: 2em;
+	--text-3xl: 3em;
+
+	--text-shadow-s: 0 1px 1px rgba(0,0,0,.33);
+}

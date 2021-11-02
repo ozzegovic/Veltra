@@ -1,0 +1,172 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Travel Agency</title>
+	<meta name='author' content='Maja Ozegovic' />
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta charset='utf-8' />
+	<link media='screen' rel='stylesheet' type='text/css' href='css/styles.css' />
+
+	<!-- openlayers maps -->
+	<!-- https://openlayers.org/en/latest/doc/quickstart.html -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+	<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
+	<!-- jQuery -->
+	<script src="js/external/jquery-3.6.0.min.js"></script>
+
+	<!-- Site scripts -->
+	<script type="module" src="main.js"></script>
+	<script type="module" src="js/components/manage-packages.js"></script>
+	<script type="module" src="js/components/packages.js"></script>
+</head>
+<body>
+	<header class='main-header flex flex-align-center'>
+		<nav>
+			<a href="/" class="logo reset text-3xl font-bold">✈️ Veltra</a>
+		</nav>
+		<div class="ml-auto pr-l flex flex-align-center gap-l">
+			<button class="add-package-button btn hide" data-show-for="ADMINISTRATOR, MANAGER">Add Package</button>
+			<a class="btn hide" data-show-for="ADMINISTRATOR, MANAGER" href="/accommodations.html">Manage Accommodations</a>
+			<a class="btn hide" data-show-for="ADMINISTRATOR" href="/admin.html">Manage Users</a>
+			<a class="btn btn--2 hide" data-show-for="ADMINISTRATOR, MANAGER, TOURIST" href="/reservations.html">Reservations</a>
+
+			<div class='main-header__user hide'>
+				Hello 
+				<a href='/profile.html' class='main-header__user-name-photo'>
+					<img class="profile-image radius-50 mr-m" />
+					<span class="main-header__user-name"></span>
+				</a>,
+				<a class='logout-btn ml-m'>Sign-out</a>
+			</div>
+			<a class='login-btn'>Sign-in/up</a>
+		</div>
+	</header>
+
+	<div class="text-center p-xl">
+		<form id="packages-search" class="packages-search text-left">
+			<div class="packages-search__dates">
+				<div>
+					<h2>Start dates</h2>
+					<label>
+						<div class="label mb-s" title="minimum date to start the trip">Min</div>
+						<input name='fromMinDate' type='date' />
+					</label>
+					<label>
+						<div class="label mb-s" title="maximum date to start the trip">Max</div>
+						<input name='ToMinDate' type='date' />
+					</label>
+				</div>
+
+				<div>
+					<h2>End dates</h2>
+					<label>
+						<div class="label mb-s">Min</div>
+						<input name='FromMaxDate' type='date' />
+					</label>
+					<label>
+						<div class="label mb-s">Max</div>
+						<input name='ToMaxDate' type='date' />
+					</label>
+				</div>
+			</div>
+
+			<label>
+				<div class="label mb-s">Transportation type</div>
+				<select name='TransportationType'>
+					<option value="All" selected>All</option>
+					<option value="bus">Bus</option>
+					<option value="airplane">Airplane</option>
+					<option value="bus_airplane">Bus + airplane</option>
+					<option value="individual">Individual</option>
+					<option value="other">Other</option>
+				</select>
+			</label>
+
+			<label>
+				<div class="label mb-s">Travel package type</div>
+				<select name='travelPackageType'>
+					<option value="All" selected>All</option>
+					<option value="AllInclusive">All inclusive</option>
+					<option value="Fullboard">Fullboard</option>
+					<option value="Halfboard">Halfboard</option>
+					<option value="Breakfastincluded">Breakfast included</option>
+					<option value="Selfcatering">Selfcatering</option>
+				</select>
+			</label>
+			<label class="label mb-s">
+				<input name='name' type='text' placeholder='Name' />
+			</label>
+			<div class="flex">
+				<button type="submit" class="btn btn--1 btn--large flex-1 no-right-radius">Search</button>
+				<input type="reset" class="btn btn--large btn--1 no-left-radius p-l" value="&times;">
+			</div>
+		</form>
+	</div>
+
+
+	<div class="flex flex-align-center w-max-1000 m-auto p-xl" style="line-height:1">
+		<div class="packages-filter filterBy mb-xl flex flex-justify-center gap-l">
+			<label>
+				<input type="radio" name="FilterPackages" value="Current" form="packages-search" hidden />
+				<span>Current</span>
+			</label>
+			<span class="opacity-03">|</span>
+			<label>
+				<input type="radio" name="FilterPackages" value="Past" form="packages-search" hidden />
+				<span>Past</span>
+			</label>
+			<span class="opacity-03 hide" data-show-for="MANAGER">|</span>
+			<label class="hide" data-show-for="MANAGER">
+				<input type="radio" name="FilterPackages" value="ByUser" form="packages-search" hidden />
+				<span>Created by me</span>
+			</label>
+		</div>
+
+		<div class="packages-sort mb-xl flex flex-justify-center gap-l ml-auto">
+			<span class="mr-xl">Sort By:</span>
+			<a class="sortBy" data-by="Name" data-order="asc">Name</a>
+			<span class="opacity-03">|</span>
+			<a class="sortBy" data-by="StartDate" data-order="asc">Start Date</a>
+			<span class="opacity-03">|</span>
+			<a class="sortBy" data-by="EndDate" data-order="asc">End Date</a>
+		</div>
+	</div>
+
+
+	<!-- travel packages -->
+	<div class='travel-packages pt-xl w-max-1000 m-auto p-xl'>
+		<!-- animated svg loader found on google: -->
+		<svg class="block w-s m-auto" width="150" version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+			<path fill="#777" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
+				<animateTransform attributeName="transform" attributeType="XML" type="rotate" dur=".5s" from="0 50 50" to="360 50 50" repeatCount="indefinite"></animateTransform>
+			</path>
+		</svg>
+	</div>
+
+	<template id="travel-package-template">
+		<div class='package mb-xl flex gap-xl'>
+			<a class='package-cover no-overflow'>
+				<img class="package-cover-img w-full" />
+			</a>
+
+			<div class='content flex-1 p-l'>
+				<div class="text-m ">
+					<h2 class='package-title font-bold text-2xl mb-l'></h2>
+					<div class='package-description text-m'></div>
+					<div class='package-dates text-m font-thin mt-l'>
+						<span>September 24, 2021</span> - <span>November 10, 2021</span>
+					</div>
+				</div>
+				<a class="package-details-btn package-price btn btn--2 btn--large mt-xl"></a>
+			</div>
+		</div>
+	</template>
+
+	<template id="travel-package-actions-template">
+		<button class="edit-package-btn btn btn--1 btn--large">✎</button>
+		<button class="delete-package-btn btn btn--warn btn--large">✕</button>
+	</template>
+</body>
+</html>

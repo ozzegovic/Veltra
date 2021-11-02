@@ -1,0 +1,17 @@
+.travel-package-single img {
+	height: 500px;
+	width: 100%;
+	/* 
+	make the image fit perfectly
+	https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit 
+	*/
+	object-fit: cover;
+}
+
+.travel-package-single .approve-comment ~ .comment__text {
+	opacity: .5;
+}
+
+.travel-package-single .approve-comment:checked ~ .comment__text {
+	opacity: 1;
+}
